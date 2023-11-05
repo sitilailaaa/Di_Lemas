@@ -8,7 +8,7 @@ class datasiswa extends CI_Controller
  public function cetak()
  {
  $datasiswa = [
- 'Nama siswa' => $this->input->post('Nama Siswa'),
+ 'Nama Siswa' => $this->input->post('Nama Siswa'),
  'NIS' => $this->input->post('NIS'),
  'Kelas' => $this->input->post('Kelas'),
  'Tanggal Lahir' => $this->input->post('Tanggal Lahir'),
