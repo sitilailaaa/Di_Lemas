@@ -1,89 +1,83 @@
+<!DOCTYPE html>
 <html>
     <head>
-    <title>Tampil Data Matakuliah</title>
-</head>
-<body>
-    <center>
-        <table>
-            <tr>
-                <th colspan="8">
-                    Tampil Data Siswa
-                </th>
-            </tr>
-            <tr>
-                <td colspan="8">
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <th>nama siswa</th>
-                <th>:</th>
-                <td>
-                    <?= $namasiswa; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>NIS</td>
-                <td>:</td>
-                <td>
-                    <?= $NIS; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>Kelas</td>
-                <td>:</td>
-                <td>
-                    <?= $kelas; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>tanggal lahir</td>
-                <td>:</td>
-                <td>
-                    <?= $tanggalahir; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>tempat lahir</td>
-                <td>:</td>
-                <td>
-                    <?= $tempatlahir; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>alamat</td>
-                <td>:</td>
-                <td>
-                    <?= $alamat; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>jenis kelamin</td>
-                <td>:</td>
-                <td>
-                    <?= $jenis_kelamin; ?>
-                </td>
-            </tr>
-            <tr>
-                <td>alamat</td>
-                <td>:</td>
-                <td>
-                    <?= $alamat; ?>
-                </td>
+        <title>Tampil Data Siswa</title>
+    </head>
+    <body>
+        <center>
+            <table>
                 <tr>
-                <td>agama</td>
-                <td>:</td>
-                <td>
-                    <?= $agama; ?>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="8" align="center">
-                    <a href="<?= base_url('datasiswa'); 
-?>">Kembali</a>
+                    <th colspan="3">
+                        Tampil Data Siswa
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="3">
+                        <hr>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Nama Siswa</th>
+                    <th>:</th>
+                    <td>
+                        <?= $nama; ?>
                     </td>
-                    </tr>
-        </table>
-    </center>
-</body>
+                </tr>
+                <tr>
+                    <td>Nis</td>
+                    <th>:</th>
+                    <td>
+                        <?= $nis; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>kelas</td>
+                    <th>:</th>
+                    <td>
+                        <?= $kelas; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <th>:</th>
+                    <td>
+                        <?= $tanggal; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tempat Lahir</td>
+                    <th>:</th>
+                    <td>
+                        <?= $tempat; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <th>:</th>
+                    <td>
+                        <?= $alamat; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <th>:</th>
+                    <td>
+                        <?= $jk; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <th>:</th>
+                    <td>
+                        <?= $agama; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <a href="<?= base_url("datasiswa"); ?>"> Kembali ke Form Input </a>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
 </html>
